@@ -34,3 +34,10 @@ body {
     background: url('../img/personal-small.jpg');
     background-size: cover;
 }
+#parallax-section {
+	text-align: center;
+	background: url("../img/laptop.jpg") center repeat fixed;
+	padding: 140px 0;
+	background-size: cover;
+	color: white;
+}
