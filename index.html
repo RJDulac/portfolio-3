@@ -5,46 +5,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ryan Dulac</title>
+    <title>Ryan J. Dulac</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
         <div class="container">
-            <a href="index.html" class="navbar-brand">Ryan Dulac</a>
+            <a href="index.html" class="navbar-brand">Ryan J. Dulac</a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
+                        <a href="#home-section" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#explore-head-section" class="nav-link">Explore</a>
+                        <a href="#about-section" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#create-head-section" class="nav-link">Create</a>
+                        <a href="#projects-section" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#share-head-section" class="nav-link">Share</a>
+                        <a href="#skills-section" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#footer-section" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- home section -->
+    <section id="home-section">
+
+    </section>
+
+    <!-- about section -->
+    <section id="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/moi.jpg" alt="me" class="img-fluid my-3 rounded-circle">
+                </div>
+                <div class="col-md-9 mt-3">
+                    <h1>About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id commodi est quae, tenetur reprehenderit rem natus architecto pariatur tempore autem maxime. Aspernatur labore suscipit et quibusdam maiores. Voluptatum, illo dolores!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id commodi est quae, tenetur reprehenderit rem natus architecto pariatur tempore autem maxime. Aspernatur labore suscipit et quibusdam maiores. Voluptatum, illo dolores!</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer id="footer-section" class="bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center py-4">
+                    <h3>Ryan J. Dulac</h3>
+                    <p>Copyright &copy;
+                        <span id="year"></span>
+                    </p>
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#contact-modal">Contact Me</button>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
-    
+    <!-- modals -->
+
+    <!-- contact modal -->
+    <div class="modal fade text-dark" id="contact-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Contact Me</h5>
+                    <button class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Email</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary btn-block">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
- 
+
 
 </body>
 

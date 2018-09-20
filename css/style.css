@@ -1,0 +1,20 @@
+html,
+body {
+	height: 100%;
+	font-size: 16px;
+	font-family: "Nunito-Regular";
+	background: url('../img/pattern.jpg') center center;
+	text-transform: uppercase;
+}
+#home-section {
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(52, 62, 79, 0.8), 
+        rgba(63, 65, 68, 0.9)), 
+        url("../img/code-background.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
