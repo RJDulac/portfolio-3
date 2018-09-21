@@ -9,7 +9,7 @@ $(document).ready(function () {
     $('body').scrollspy({ target: '#main-nav' });
 
     //smooth scrolling
-    $('#main-nav a').on('click', function (event) {
+    $('#main-nav a, #home-section a').on('click', function (event) {
         if (this.hash !== '') {
             event.preventDefault();
 

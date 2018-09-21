@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ryan J. Dulac</title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -45,10 +46,14 @@
     <!-- home section -->
     <section id="home-section">
 
-<div class="container d-flex justify-content-center f-container">
-                <div class="text-white align-self-end pb-3 fa-2x"><i class="fas fa-angle-down"></i></div>
-                
+        <div class="container d-flex justify-content-center f-container">
+            <div class="text-white align-self-end pb-3 fa-2x">
+                <a href="#about-section">
+                    <i class="fas fa-angle-down"></i>
+                </a>
             </div>
+
+        </div>
     </section>
 
     <!-- about section -->
@@ -68,7 +73,7 @@
                         Voluptatum, illo dolores!</p>
                 </div>
             </div>
-            
+
         </div>
 
     </section>
@@ -86,39 +91,56 @@
                     <li data-target="#my-carousel" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                    <div class="carousel-item carousel-image-1 active">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-sm-block text-right mb-5">
-                                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, minus distinctio. Maxime
-                                    quas ratione voluptas quia expedita, harum accusantium nulla!</p>
+                    <div class="carousel-item bg-dark text-white py-5 active">
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="card">
+                                    <img class="card-img-top" src="img/personal-small.jpg"></img>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                        content.
+                                    </p>
+                                    <a href="#" class="card-link">Card link</a>
+                                    <a href="#" class="card-link">Another link</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item carousel-image-2">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-sm-block mb-5">
-                                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, minus distinctio. Maxime
-                                    quas ratione voluptas quia expedita, harum accusantium nulla!</p>
+                    <div class="carousel-item bg-dark py-5 text-white">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div class="card">
+                                        <img class="card-img-top" src="img/personal-small.jpg"></img>
+                                    </div>
+    
+                                </div>
+                                <div class="col-4">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                                            content.
+                                        </p>
+                                        <a href="#" class="card-link">Card link</a>
+                                        <a href="#" class="card-link">Another link</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="carousel-item carousel-image-3">
-                        <div class="container">
-                            <div class="carousel-caption d-none d-sm-block text-right mb-5">
-                                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, minus distinctio. Maxime
-                                    quas ratione voluptas quia expedita, harum accusantium nulla!</p>
-                            </div>
-                        </div>
-                    </div>
+
+                    <a href="#my-carousel" data-slide="prev" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#my-carousel" data-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
                 </div>
-                <a href="#my-carousel" data-slide="prev" class="carousel-control-prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a href="#my-carousel" data-slide="next" class="carousel-control-next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
             </div>
-        </div>
     </section>
     <section id="skills-section">
         <div class="container">
@@ -135,7 +157,6 @@
 
 
     </section>
-
     <!-- Footer -->
 
     <footer id="footer-section" class="bg-dark text-white">
